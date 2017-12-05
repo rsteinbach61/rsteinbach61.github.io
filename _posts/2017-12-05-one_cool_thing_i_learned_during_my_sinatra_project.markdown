@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "One Cool Thing I Learned During My Sinatra Project"
-date:       2017-12-05 19:47:16 +0000
+date:       2017-12-05 14:47:17 -0500
 permalink:  one_cool_thing_i_learned_during_my_sinatra_project
 ---
 
@@ -9,7 +9,7 @@ permalink:  one_cool_thing_i_learned_during_my_sinatra_project
 
 
 
-I wanted to allow users to upload images as part of the Home Inventory App i'm building for my Sinatra project. 
+I wanted to allow users to upload images as part of the Home Inventory App I'm building for my Sinatra project. 
 
 The App is designed for users who want to keep an inventory of the items in their home(s). An inventory would be useful in the event of a total loss due to some catastrophic event like fire, earthquake, flood ... Having a picture and/or receipt image would be very valuable.
 
