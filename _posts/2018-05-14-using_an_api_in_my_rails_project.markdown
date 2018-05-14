@@ -37,11 +37,11 @@ def get_details
       response = RestClient::Request.execute( method: :get, url: 'http://www.omdbapi.com/?t=' + @show +  '&type=' + @type + '&plot=full&apikey=OMDB_KEY')
 ```
  	 
-Parse the results from OMDB in held in response using JSON.parse. OMDB offers either JSON or XML as formats for their results. JSON is their default so I went with it.
+Parse the results from OMDB held in response using JSON.parse. OMDB offers either JSON or XML as formats for their results. JSON is their default so I went with it.
 
 ```
-JSON.parse(response)
-  	end	
+    JSON.parse(response)
+  end
 end
 
 ```
@@ -77,16 +77,27 @@ Use @details in the show.html.erb view to list out the details of the show found
 Show Details from OMDB:
 
 Title: Dragnet
+
 Year: 1951–1959
+
 Rated: N/A
+
 Released 16 Dec 1951
+
 Runtime: 30 min
+
 Genre: Crime, Drama, Mystery
+
 Director: N/A
+
 Writer: Jack Webb
+
 Actors: Jack Webb
+
 Type: series
+
 Plot: "The story you are about to see is true", "Just the facts, ma'am", "We were working the day watch" - phrases which became so popular as to inspire much parody - set the realistic tone of this early police drama. The show emphasized careful police work and the interweaving of policemen's professional and personal lives.
+
 Done.
 
 
