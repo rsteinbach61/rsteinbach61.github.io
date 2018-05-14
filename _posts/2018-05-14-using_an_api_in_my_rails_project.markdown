@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using an API in my Rails Project "
-date:       2018-05-14 21:37:52 +0000
+date:       2018-05-14 17:37:53 -0400
 permalink:  using_an_api_in_my_rails_project
 ---
 
@@ -66,9 +66,11 @@ Use @details in the show.html.erb view to list out the details of the show found
 			<p>Released <%= @details["Released"] %></p>
   		<p>Runtime: <%= @details["Runtime"] %></p>
 		  <p>Genre: <%= @details["Genre"] %></p>
- 		<p>Director: <%= @details["Director"] %></p>
- 		<p>Writer: <%= @details["Writer"] %></p>
- 		<p>Actors: <%= @details["Actors"] %></p>  		<p>Type: <%= @details["Type"] %></p>  		<p>Plot: <%= @details["Plot"] %></p>
+ 		  <p>Director: <%= @details["Director"] %></p>
+ 		  <p>Writer: <%= @details["Writer"] %></p>
+ 		  <p>Actors: <%= @details["Actors"] %></p>  		
+		  <p>Type: <%= @details["Type"] %></p>  		
+		  <p>Plot: <%= @details["Plot"] %></p>
    <% end %>
 ```
 
