@@ -57,21 +57,21 @@ Use @details in the show.html.erb view to list out the details of the show found
 
 ```
 <h4> Show Details from OMDB </h4>
-  <% if @details["Response"] == "False" %>
-    	<p><%= @details["Error"] %></p>
-  <% else %>
- 		  <p>Title: <%= @details["Title"] %></p>
-  		<p>Year: <%= @details["Year"] %></p>
-			<p>Rated: <%= @details["Rated"] %></p>
-			<p>Released <%= @details["Released"] %></p>
-  		<p>Runtime: <%= @details["Runtime"] %></p>
-		  <p>Genre: <%= @details["Genre"] %></p>
- 		  <p>Director: <%= @details["Director"] %></p>
- 		  <p>Writer: <%= @details["Writer"] %></p>
- 		  <p>Actors: <%= @details["Actors"] %></p>  		
-		  <p>Type: <%= @details["Type"] %></p>  		
-		  <p>Plot: <%= @details["Plot"] %></p>
-   <% end %>
+<% if @details["Response"] == "False" %>
+    <p><%= @details["Error"] %></p>
+<% else %>
+    <p>Title: <%= @details["Title"] %></p>
+    <p>Year: <%= @details["Year"] %></p>
+    <p>Rated: <%= @details["Rated"] %></p>
+    <p>Released <%= @details["Released"] %></p>
+    <p>Runtime: <%= @details["Runtime"] %></p>
+    <p>Genre: <%= @details["Genre"] %></p>
+    <p>Director: <%= @details["Director"] %></p>
+    <p>Writer: <%= @details["Writer"] %></p>
+    <p>Actors: <%= @details["Actors"] %></p>
+    <p>Type: <%= @details["Type"] %></p>
+    <p>Plot: <%= @details["Plot"] %></p>
+  <% end %>
 ```
 
 Show Details from OMDB:
