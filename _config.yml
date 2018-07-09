@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: steinbach.dick@gmail.com
 copyright_name: rsteinbach61
 description: > # this means to ignore newlines until "baseurl:"
-  Observations from my life-long journey in coding.
+  Observations from my journey in coding.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: dsteinbach
 github_username:  rsteinbach61
