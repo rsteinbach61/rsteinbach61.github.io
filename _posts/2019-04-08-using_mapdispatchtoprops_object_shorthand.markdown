@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using mapDispatchToProps Object Shorthand"
-date:       2019-04-08 20:22:24 +0000
+date:       2019-04-08 16:22:24 -0400
 permalink:  using_mapdispatchtoprops_object_shorthand
 ---
 
@@ -17,7 +17,7 @@ export default connect(mapStateToProps, mapDispatchToProps) (RoomsContainer)
 
 ```
 
-As long as my actions return objects, I can simplify to:
+As long as my action creators return objects, I can simplify to:
 ```
 export default connect(mapStateToProps, {getRoom, addRoom, removeRoom} ) (RoomsContainer)
 
@@ -35,7 +35,7 @@ export function getRoom(id) {
 
 ```
 
-It calls getRooms, a fetch that retrieves Rooms from my DB, and then dispatches an action creator named getRoomsSuccess and passes the Rooms retrieved from the DB as payload. 
+It calls getRooms, a fetch that retrieves Rooms from my DB, and then dispatches an action named getRoomsSuccess and passes the Rooms retrieved from the DB as payload. 
 ```
 export function getRoomsSuccess(payload){
   return {type: "GET_ROOMS_SUCCESS", payload}
